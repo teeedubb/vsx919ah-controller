@@ -1,8 +1,8 @@
 # vsx919ah-controller
 
-Pioneer VSX919ah Wifi controller
+Pioneer VSX-919ah Wifi controller
 
-An ESP32 sketch to control a VSX919ah AV Receiver via the 'IR in' port.
+An ESP32 sketch to control a VSX-919ah AV Receiver via the 'IR in' port.
 
 Connects to the receiver with a 3.5mm jack and the ESP32 hosts a webpage to allow network remote control. Unlike control via the 'SR in' port, the IR remote will still work.
 
@@ -13,3 +13,5 @@ IR codes were obtained from a aftermarket AXD7534 remote and a Logitech Harmony 
 This sketch needs to be compiled with the 2.0.14 version of the esp32 board data in the Arduino IDE.
 
 To wire up the 3.5mm mono jack, connect the sleeve to ground and the tip to the GPIO port designated in the sketch.
+
+![image](https://github.com/user-attachments/assets/6c780cb2-0e7a-45ea-8d9d-e7ecc89bf34f)
